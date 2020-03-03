@@ -1,0 +1,23 @@
+{
+  "name": "pj5_kissapeli_2020_kevat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaaviKodari/kissapeli_toinenHarjoitus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TaaviKodari/kissapeli_toinenHarjoitus/issues"
+  },
+  "homepage": "https://github.com/TaaviKodari/kissapeli_toinenHarjoitus#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
