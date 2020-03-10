@@ -10,10 +10,10 @@ var kissa_ajastin;
 var elamia_jaljella = 9;
 var pelastetut_kissat = 0;
 function  preload(){
-  //taustakuva = loadImage('https://igno.cc/opetus/kuvat/tausta.png');
-  taustakuva = loadImage ('https://graphicriver.img.customer.envatousercontent.com/files/260591795/snowy%20fir%20trees%20at%20night%20_pv.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=1c178aeab073fa29e1c49e0caeb244ce')
-  //kissakuva = loadImage('https://igno.cc/opetus/kuvat/cat.png');
-  kissakuva = loadImage('https://lh3.googleusercontent.com/proxy/dLwoCXzaOSkRxioP_TRDVhgoc43dTZ4nutRc93k9umncTL5HR82yapw_ab734FUDo2dfGJerXforRUgNfsC7ROq0-R3BC5IA');
+  taustakuva = loadImage('https://igno.cc/opetus/kuvat/tausta.png');
+  //taustakuva = loadImage ('https://graphicriver.img.customer.envatousercontent.com/files/260591795/snowy%20fir%20trees%20at%20night%20_pv.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=1c178aeab073fa29e1c49e0caeb244ce')
+  kissakuva = loadImage('https://igno.cc/opetus/kuvat/cat.png');
+  //kissakuva = loadImage('https://lh3.googleusercontent.com/proxy/dLwoCXzaOSkRxioP_TRDVhgoc43dTZ4nutRc93k9umncTL5HR82yapw_ab734FUDo2dfGJerXforRUgNfsC7ROq0-R3BC5IA');
 }
 
 function setup(){
