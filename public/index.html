@@ -3,13 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>Kissapeli</title>
+    !-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
 <link rel="stylesheet" href="css/kissapeli.css">
 <script src="js\kissapeli.js"></script>
   </head>
   <body>
-    <button onclick="aloitaPeli">Pelaa Nyt</button>
+    <div class="col-sm-3">
+      <h2>Kissanpompputusta</h2>
+    </div>
+    <div class="col-sm-9">
+      <button onclick="aloitaPeli">Pelaa Nyt</button>
+    </div>
+
     <div id="kissapeli"></div>
   </body>
 </html>
