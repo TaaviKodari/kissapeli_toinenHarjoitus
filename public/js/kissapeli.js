@@ -9,9 +9,10 @@ var kissalista = [];
 var kissa_ajastin;
 var elamia_jaljella = 9;
 var pelastetut_kissat = 0;
+
 function  preload(){
   taustakuva = loadImage('image/snowy.jpg');
-  kissakuva = loadImage('image/corgi.jpg');
+  kissakuva = loadImage('image/corgi.png');
   //taustakuva = loadImage('https://igno.cc/opetus/kuvat/tausta.png');
   //taustakuva = loadImage ('https://graphicriver.img.customer.envatousercontent.com/files/260591795/snowy%20fir%20trees%20at%20night%20_pv.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=1c178aeab073fa29e1c49e0caeb244ce')
   //kissakuva = loadImage('https://igno.cc/opetus/kuvat/cat.png');
@@ -22,8 +23,20 @@ function setup(){
   var canvas = createCanvas(taustan_leveys,taustan_korkeus);
   canvas.parent("kissapeli");
   angleMode(DEGREES);
-  luo_kissoja();
+  //luo_kissoja();
   //clearTimeout(kissa_ajastin);
+}
+
+function aloitaPeli(){
+  //Nämä komennot ovat restarttia varten, eli jos halutaa pelata uudelleen ensimmäisen pelin jälkeen
+  kissalista = [];
+  elamia_jaljella = 9;
+  pelastetut_kissat = 0
+  clearTimeout(kissa_ajastin);
+  loop();
+
+  //Lähdetään luomaan kissoja, kun nappia on painettu
+  luo_kissoja();
 }
 
 function draw(){
